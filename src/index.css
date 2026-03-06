@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 15% 8%;
+    --foreground: 210 20% 92%;
+
+    --card: 230 15% 12%;
+    --card-foreground: 210 20% 92%;
+
+    --popover: 230 15% 12%;
+    --popover-foreground: 210 20% 92%;
+
+    --primary: 172 80% 50%;
+    --primary-foreground: 230 15% 8%;
+
+    --secondary: 270 60% 55%;
+    --secondary-foreground: 210 20% 95%;
+
+    --muted: 230 12% 18%;
+    --muted-foreground: 215 15% 55%;
+
+    --accent: 45 100% 55%;
+    --accent-foreground: 230 15% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 230 12% 20%;
+    --input: 230 12% 20%;
+    --ring: 172 80% 50%;
+
+    --radius: 0.75rem;
+
+    --neon-cyan: 172 80% 50%;
+    --neon-purple: 270 60% 55%;
+    --neon-gold: 45 100% 55%;
+    --neon-pink: 330 80% 60%;
+
+    --sidebar-background: 230 15% 10%;
+    --sidebar-foreground: 210 20% 85%;
+    --sidebar-primary: 172 80% 50%;
+    --sidebar-primary-foreground: 230 15% 8%;
+    --sidebar-accent: 230 12% 16%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 230 12% 18%;
+    --sidebar-ring: 172 80% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .glow-cyan {
+    box-shadow: 0 0 20px hsl(172 80% 50% / 0.3), 0 0 60px hsl(172 80% 50% / 0.1);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 20px hsl(270 60% 55% / 0.3), 0 0 60px hsl(270 60% 55% / 0.1);
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 20px hsl(45 100% 55% / 0.3), 0 0 60px hsl(45 100% 55% / 0.1);
+  }
+
+  .text-glow-cyan {
+    text-shadow: 0 0 20px hsl(172 80% 50% / 0.5);
+  }
+
+  .text-glow-purple {
+    text-shadow: 0 0 20px hsl(270 60% 55% / 0.5);
+  }
+
+  .gradient-border {
+    border-image: linear-gradient(135deg, hsl(172 80% 50%), hsl(270 60% 55%)) 1;
+  }
+
+  .bg-grid {
+    background-image: 
+      linear-gradient(hsl(230 12% 20% / 0.3) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(230 12% 20% / 0.3) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
+
+@layer components {
+  .card-game {
+    @apply bg-card rounded-xl border border-border overflow-hidden transition-all duration-300;
+  }
+
+  .card-game:hover {
+    border-color: hsl(172 80% 50% / 0.5);
+    box-shadow: 0 0 30px hsl(172 80% 50% / 0.15);
+    transform: translateY(-4px);
+  }
+
+  .btn-neon {
+    @apply relative overflow-hidden rounded-lg font-display font-semibold tracking-wide px-6 py-3 transition-all duration-300;
+    background: linear-gradient(135deg, hsl(172 80% 50%), hsl(172 80% 40%));
+    color: hsl(230 15% 8%);
+  }
+
+  .btn-neon:hover {
+    box-shadow: 0 0 30px hsl(172 80% 50% / 0.4);
+    transform: translateY(-2px);
+  }
+
+  .btn-neon-outline {
+    @apply relative overflow-hidden rounded-lg font-display font-semibold tracking-wide px-6 py-3 transition-all duration-300 border;
+    border-color: hsl(172 80% 50% / 0.5);
+    color: hsl(172 80% 50%);
+  }
+
+  .btn-neon-outline:hover {
+    background: hsl(172 80% 50% / 0.1);
+    box-shadow: 0 0 20px hsl(172 80% 50% / 0.2);
+  }
+}
