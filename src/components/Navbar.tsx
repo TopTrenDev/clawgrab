@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Wallet, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -20,16 +21,11 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl"
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="font-display text-sm font-bold text-primary-foreground">CG</span>
-          </div>
-          <span className="font-display text-lg font-bold tracking-wider text-foreground">
-            CLAW<span className="text-primary">GRAB</span>
-          </span>
-        </div>
+        <Link to="/" className="flex items-center gap-2">
+          <img src={logo} alt="ClawGrab" className="h-14 w-auto" />
+        </Link>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden min-[769px]:flex items-center gap-8">
           {navItems.map((item) => (
             <Link
               key={item.label}
@@ -42,12 +38,12 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-3">
-          <button className="btn-neon hidden sm:flex items-center gap-2 text-sm">
+          <button className="btn-neon hidden min-[769px]:flex items-center gap-2 text-sm">
             <Wallet className="h-4 w-4" />
             Connect Wallet
           </button>
           <button
-            className="md:hidden text-foreground"
+            className="min-[769px]:hidden text-foreground"
             onClick={() => setMobileOpen(!mobileOpen)}
           >
             {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -59,7 +55,7 @@ const Navbar = () => {
         <motion.div
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: "auto" }}
-          className="md:hidden border-t border-border bg-background/95 backdrop-blur-xl"
+          className="min-[769px]:hidden border-t border-border bg-background/95 backdrop-blur-xl"
         >
           <div className="container mx-auto px-4 py-4 flex flex-col gap-3">
             {navItems.map((item) => (

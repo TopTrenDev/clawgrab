@@ -4,7 +4,7 @@ import clawMachineImg from "@/assets/claw-machine-hero.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden pt-16">
+    <section className="relative min-h-screen flex items-center overflow-x-hidden pt-24 sm:pt-28">
       {/* Background grid */}
       <div className="absolute inset-0 bg-grid opacity-30" />
       
@@ -50,15 +50,15 @@ const HeroSection = () => {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-border">
+            <div className="grid grid-cols-3 gap-2 sm:gap-6 mt-12 pt-8 border-t border-border">
               {[
                 { value: "12.4K", label: "NFTs Grabbed" },
                 { value: "3.2K", label: "Players" },
                 { value: "845", label: "SOL Volume" },
               ].map((stat) => (
-                <div key={stat.label}>
-                  <div className="font-display text-2xl font-bold text-primary">{stat.value}</div>
-                  <div className="text-xs text-muted-foreground mt-1">{stat.label}</div>
+                <div key={stat.label} className="text-center lg:text-left">
+                  <div className="font-display text-xl sm:text-2xl font-bold text-primary">{stat.value}</div>
+                  <div className="text-[10px] sm:text-xs text-muted-foreground mt-1">{stat.label}</div>
                 </div>
               ))}
             </div>
