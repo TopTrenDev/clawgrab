@@ -3,6 +3,7 @@ import { Search, SlidersHorizontal, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import cardsData from "@/data/pokemon/cards.json";
 
 type Rarity = "All" | "Common" | "Rare" | "Epic" | "Legendary";
 type SortOption = "newest" | "price-low" | "price-high" | "rarity";
@@ -30,27 +31,33 @@ const rarityGlow: Record<string, string> = {
   Legendary: "glow-gold",
 };
 
-const mockNFTs: NFTItem[] = [
-  { id: 1, name: "Shadow Charizard", image: "/placeholder.svg", rarity: "Legendary", price: 12.5, seller: "7xKp...3nRq" },
-  { id: 2, name: "Neon Pikachu", image: "/placeholder.svg", rarity: "Epic", price: 5.2, seller: "9mBz...1xLp" },
-  { id: 3, name: "Crystal Eevee", image: "/placeholder.svg", rarity: "Rare", price: 2.8, seller: "4kWn...8vTr" },
-  { id: 4, name: "Holo Mewtwo", image: "/placeholder.svg", rarity: "Legendary", price: 18.0, seller: "2jFx...6dNs" },
-  { id: 5, name: "Volt Jolteon", image: "/placeholder.svg", rarity: "Rare", price: 1.9, seller: "8pCm...4hYz" },
-  { id: 6, name: "Flame Arcanine", image: "/placeholder.svg", rarity: "Epic", price: 4.1, seller: "5tRn...2bKq" },
-  { id: 7, name: "Frost Articuno", image: "/placeholder.svg", rarity: "Legendary", price: 22.3, seller: "1vGx...9wMp" },
-  { id: 8, name: "Spark Magnemite", image: "/placeholder.svg", rarity: "Common", price: 0.5, seller: "6hDz...3cLr" },
-  { id: 9, name: "Aqua Vaporeon", image: "/placeholder.svg", rarity: "Rare", price: 2.1, seller: "3xNm...7jTs" },
-  { id: 10, name: "Moss Bulbasaur", image: "/placeholder.svg", rarity: "Common", price: 0.3, seller: "8kPz...1fWn" },
-  { id: 11, name: "Phantom Gengar", image: "/placeholder.svg", rarity: "Epic", price: 6.7, seller: "4rBx...5tYm" },
-  { id: 12, name: "Storm Zapdos", image: "/placeholder.svg", rarity: "Legendary", price: 15.8, seller: "9wCn...2hLp" },
-];
+const RARITIES: Array<Exclude<Rarity, "All">> = ["Common", "Rare", "Epic", "Legendary"];
+const MOCK_SELLERS = ["7xKp...3nRq", "9mBz...1xLp", "4kWn...8vTr", "2jFx...6dNs", "8pCm...4hYz", "5tRn...2bKq", "1vGx...9wMp", "6hDz...3cLr"];
+
+function buildMarketplaceCards(): NFTItem[] {
+  const attributes = cardsData.results?.availableAttributes ?? [];
+  const first100 = attributes.slice(0, 100);
+  return first100.map((item, index) => {
+    const name = item.attribute?.value ?? "Unknown";
+    const image = item.image ?? "/placeholder.svg";
+    const floor = typeof item.floor === "number" ? item.floor : 0;
+    const priceSol = floor / 1e9;
+    const price = priceSol >= 0.01 ? Math.round(priceSol * 100) / 100 : (index % 10) * 0.5 + 0.5;
+    const rarity = RARITIES[index % RARITIES.length];
+    const seller = MOCK_SELLERS[index % MOCK_SELLERS.length];
+    return { id: index + 1, name, image, rarity, price, seller };
+  });
+}
+
+const marketplaceCards = buildMarketplaceCards();
 
 const Marketplace = () => {
   const [search, setSearch] = useState("");
   const [rarity, setRarity] = useState<Rarity>("All");
   const [sort, setSort] = useState<SortOption>("newest");
+  const [brokenImageIds, setBrokenImageIds] = useState<Set<number>>(new Set());
 
-  const filtered = mockNFTs
+  const filtered = marketplaceCards
     .filter((n) => rarity === "All" || n.rarity === rarity)
     .filter((n) => n.name.toLowerCase().includes(search.toLowerCase()))
     .sort((a, b) => {
@@ -132,7 +139,12 @@ const Marketplace = () => {
               className={`card-game group cursor-pointer ${rarityGlow[nft.rarity]}`}
             >
               <div className="aspect-square bg-muted/30 flex items-center justify-center overflow-hidden">
-                <img src={nft.image} alt={nft.name} className="w-3/4 h-3/4 object-contain opacity-60 group-hover:scale-110 transition-transform duration-300" />
+                <img
+                  src={brokenImageIds.has(nft.id) ? "/placeholder.svg" : nft.image}
+                  alt={nft.name}
+                  className="w-3/4 h-3/4 object-contain opacity-60 group-hover:scale-110 transition-transform duration-300"
+                  onError={() => setBrokenImageIds((prev) => new Set(prev).add(nft.id))}
+                />
               </div>
               <div className="p-4 space-y-3">
                 <div className="flex items-center justify-between">
