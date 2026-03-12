@@ -1,0 +1,1307 @@
+{
+  "results": {
+    "symbol": "collector_crypt",
+    "availableAttributes": [
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Pikachu"
+        },
+        "count": 78,
+        "countByListingType": {
+          "1": 1020,
+          "2": 78
+        },
+        "floor": 85000000,
+        "image": "/card-images/card-0.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Eevee"
+        },
+        "count": 37,
+        "countByListingType": {
+          "1": 403,
+          "2": 37
+        },
+        "floor": 30000000,
+        "image": "/card-images/card-1.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Monkey D. Luffy"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 325,
+          "2": 2
+        },
+        "floor": 24048684000,
+        "image": "/card-images/card-2.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Charizard EX"
+        },
+        "count": 23,
+        "countByListingType": {
+          "1": 283,
+          "2": 23
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-3.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Bulbasaur"
+        },
+        "count": 11,
+        "countByListingType": {
+          "1": 192,
+          "2": 11
+        },
+        "floor": 448714000,
+        "image": "/card-images/card-4.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Mew EX"
+        },
+        "count": 16,
+        "countByListingType": {
+          "1": 187,
+          "2": 16
+        },
+        "floor": 495619000,
+        "image": "/card-images/card-5.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Charmander"
+        },
+        "count": 19,
+        "countByListingType": {
+          "1": 179,
+          "2": 19
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-6.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Charizard-Holo"
+        },
+        "count": 10,
+        "countByListingType": {
+          "1": 173,
+          "2": 10
+        },
+        "floor": 1336013000,
+        "image": "/card-images/card-7.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Pikachu"
+        },
+        "count": 14,
+        "countByListingType": {
+          "1": 167,
+          "2": 14
+        },
+        "floor": 440000000,
+        "image": "/card-images/card-8.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Snorlax"
+        },
+        "count": 11,
+        "countByListingType": {
+          "1": 137,
+          "2": 11
+        },
+        "floor": 497948000,
+        "image": "/card-images/card-9.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Squirtle"
+        },
+        "count": 12,
+        "countByListingType": {
+          "1": 136,
+          "2": 12
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-10.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Umbreon"
+        },
+        "count": 15,
+        "countByListingType": {
+          "1": 118,
+          "2": 15
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-11.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Mewtwo"
+        },
+        "count": 16,
+        "countByListingType": {
+          "1": 116,
+          "2": 16
+        },
+        "floor": 85000000,
+        "image": "/card-images/card-12.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Charizard"
+        },
+        "count": 18,
+        "countByListingType": {
+          "1": 96,
+          "2": 18
+        },
+        "floor": 787959000,
+        "image": "/card-images/card-13.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Leafeon"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 107,
+          "2": 3
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-14.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Moltres & Zapdos & Articuno GX"
+        },
+        "count": 11,
+        "countByListingType": {
+          "1": 97,
+          "2": 11
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-15.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Magikarp"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 101,
+          "2": 4
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-16.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Pikachu EX"
+        },
+        "count": 12,
+        "countByListingType": {
+          "1": 90,
+          "2": 12
+        },
+        "floor": 125000000,
+        "image": "/card-images/card-17.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Magneton"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 95,
+          "2": 4
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-18.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Blastoise-Holo"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 95,
+          "2": 3
+        },
+        "floor": 2000000000,
+        "image": "/card-images/card-19.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Charizard Vmax"
+        },
+        "count": 9,
+        "countByListingType": {
+          "1": 84,
+          "2": 9
+        },
+        "floor": 55000000,
+        "image": "/card-images/card-20.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Mew"
+        },
+        "count": 7,
+        "countByListingType": {
+          "1": 85,
+          "2": 7
+        },
+        "floor": 549040000,
+        "image": "/card-images/card-21.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Sylveon"
+        },
+        "count": 1,
+        "countByListingType": {
+          "1": 89,
+          "2": 1
+        },
+        "floor": 650822000,
+        "image": "/card-images/card-22.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Umbreon EX"
+        },
+        "count": 9,
+        "countByListingType": {
+          "1": 80,
+          "2": 9
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-23.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Venusaur-Holo"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 83,
+          "2": 5
+        },
+        "floor": 1056836000,
+        "image": "/card-images/card-24.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Charizard V"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 84,
+          "2": 2
+        },
+        "floor": 2000000000,
+        "image": "/card-images/card-25.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Umbreon Vmax"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 81,
+          "2": 5
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-26.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Psyduck"
+        },
+        "count": 9,
+        "countByListingType": {
+          "1": 77,
+          "2": 9
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-27.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Articuno"
+        },
+        "count": 8,
+        "countByListingType": {
+          "1": 75,
+          "2": 8
+        },
+        "floor": 591077000,
+        "image": "/card-images/card-28.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Charizard Vstar"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 77,
+          "2": 6
+        },
+        "floor": 678601000,
+        "image": "/card-images/card-29.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Kingdra EX"
+        },
+        "count": 7,
+        "countByListingType": {
+          "1": 76,
+          "2": 7
+        },
+        "floor": 830359000,
+        "image": "/card-images/card-30.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Charmeleon"
+        },
+        "count": 9,
+        "countByListingType": {
+          "1": 72,
+          "2": 9
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-31.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Gengar"
+        },
+        "count": 17,
+        "countByListingType": {
+          "1": 63,
+          "2": 17
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-32.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Mega Gengar EX"
+        },
+        "count": 12,
+        "countByListingType": {
+          "1": 67,
+          "2": 12
+        },
+        "floor": 378765000,
+        "image": "/card-images/card-33.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Pikachu With Grey Felt Hat"
+        },
+        "count": 0,
+        "countByListingType": {
+          "1": 79,
+          "2": 0
+        },
+        "floor": 0,
+        "image": "/card-images/card-34.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Roaring Moon EX"
+        },
+        "count": 8,
+        "countByListingType": {
+          "1": 70,
+          "2": 8
+        },
+        "floor": 84000000,
+        "image": "/placeholder.svg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Ivysaur"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 72,
+          "2": 2
+        },
+        "floor": 400000000,
+        "image": "/card-images/card-36.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Greninja EX"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 68,
+          "2": 5
+        },
+        "floor": 775367000,
+        "image": "/card-images/card-37.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Nami"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 69,
+          "2": 2
+        },
+        "floor": 2400000000,
+        "image": "/card-images/card-38.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Umbreon-Gold Star"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 67,
+          "2": 4
+        },
+        "floor": 1683505000,
+        "image": "/card-images/card-39.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Greninja-Gold Star"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 65,
+          "2": 3
+        },
+        "floor": 328400000,
+        "image": "/card-images/card-40.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "N's Reshiram"
+        },
+        "count": 7,
+        "countByListingType": {
+          "1": 60,
+          "2": 7
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-41.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Gardevoir EX"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 63,
+          "2": 3
+        },
+        "floor": 1478808000,
+        "image": "/card-images/card-42.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Alakazam EX"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 61,
+          "2": 3
+        },
+        "floor": 774254000,
+        "image": "/card-images/card-43.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Mega Charizard X EX"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 59,
+          "2": 5
+        },
+        "floor": 356855000,
+        "image": "/card-images/card-44.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Origin Forme Palkia Vstar"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 57,
+          "2": 5
+        },
+        "floor": 953791000,
+        "image": "/card-images/card-45.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Mimikyu"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 58,
+          "2": 4
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-46.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Zapdos EX"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 58,
+          "2": 4
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-47.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Team Rocket's Mewtwo EX"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 58,
+          "2": 3
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-48.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Eevee EX"
+        },
+        "count": 14,
+        "countByListingType": {
+          "1": 46,
+          "2": 14
+        },
+        "floor": 60000000,
+        "image": "/card-images/card-49.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Haunter"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 55,
+          "2": 5
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-50.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Radiant Charizard"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 55,
+          "2": 5
+        },
+        "floor": 1000000000,
+        "image": "/card-images/card-51.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Mewtwo Vstar"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 57,
+          "2": 2
+        },
+        "floor": 2000000000,
+        "image": "/card-images/card-52.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Giratina Vstar"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 56,
+          "2": 2
+        },
+        "floor": 2465349000,
+        "image": "/card-images/card-53.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Vaporeon EX"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 52,
+          "2": 5
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-54.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Rayquaza Vmax"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 54,
+          "2": 2
+        },
+        "floor": 1000000000,
+        "image": "/card-images/card-55.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Meowth"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 50,
+          "2": 6
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-56.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Entei V"
+        },
+        "count": 10,
+        "countByListingType": {
+          "1": 45,
+          "2": 10
+        },
+        "floor": 417337000,
+        "image": "/card-images/card-57.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Charizard ex"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 49,
+          "2": 5
+        },
+        "floor": 619426000,
+        "image": "/card-images/card-58.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Drowzee"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 50,
+          "2": 3
+        },
+        "floor": 560003000,
+        "image": "/card-images/card-59.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Lugia V"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 51,
+          "2": 2
+        },
+        "floor": 1714125000,
+        "image": "/card-images/card-60.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Suicune V"
+        },
+        "count": 1,
+        "countByListingType": {
+          "1": 52,
+          "2": 1
+        },
+        "floor": 2524020000,
+        "image": "/card-images/card-61.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Ceruledge"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 45,
+          "2": 6
+        },
+        "floor": 616815000,
+        "image": "/card-images/card-62.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Gengar-Holo"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 47,
+          "2": 4
+        },
+        "floor": 110000000,
+        "image": "/card-images/card-63.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Feraligatr"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 45,
+          "2": 5
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-64.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Boa Hancock"
+        },
+        "count": 1,
+        "countByListingType": {
+          "1": 48,
+          "2": 1
+        },
+        "floor": 10000000000,
+        "image": "/card-images/card-65.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Charizard V"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 44,
+          "2": 5
+        },
+        "floor": 900000000,
+        "image": "/card-images/card-66.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Mega Charizard X ex"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 43,
+          "2": 6
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-67.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Raging Bolt EX"
+        },
+        "count": 10,
+        "countByListingType": {
+          "1": 39,
+          "2": 10
+        },
+        "floor": 69000000,
+        "image": "/card-images/card-68.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Reshiram & Charizard GX"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 43,
+          "2": 4
+        },
+        "floor": 550000000,
+        "image": "/card-images/card-69.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Wartortle"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 44,
+          "2": 3
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-70.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Blastoise EX"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 43,
+          "2": 2
+        },
+        "floor": 241000000,
+        "image": "/card-images/card-71.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Gengar Vmax"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 43,
+          "2": 2
+        },
+        "floor": 9982464000,
+        "image": "/card-images/card-72.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Raichu"
+        },
+        "count": 8,
+        "countByListingType": {
+          "1": 37,
+          "2": 8
+        },
+        "floor": 80000000,
+        "image": "/card-images/card-73.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Umbreon V"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 39,
+          "2": 5
+        },
+        "floor": 455398000,
+        "image": "/card-images/card-74.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Lillie's Clefairy EX"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 41,
+          "2": 3
+        },
+        "floor": 416712000,
+        "image": "/card-images/card-75.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Milotic EX"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 40,
+          "2": 4
+        },
+        "floor": 1100000000,
+        "image": "/card-images/card-76.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Riolu"
+        },
+        "count": 12,
+        "countByListingType": {
+          "1": 32,
+          "2": 12
+        },
+        "floor": 364861000,
+        "image": "/card-images/card-77.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Chansey"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 40,
+          "2": 3
+        },
+        "floor": 40000000,
+        "image": "/card-images/card-78.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Pikachu & Zekrom GX"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 40,
+          "2": 3
+        },
+        "floor": 2000000000,
+        "image": "/card-images/card-79.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Raikou V"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 40,
+          "2": 3
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-80.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Iono"
+        },
+        "count": 2,
+        "countByListingType": {
+          "1": 41,
+          "2": 2
+        },
+        "floor": 1682680000,
+        "image": "/card-images/card-81.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Sylveon EX"
+        },
+        "count": 0,
+        "countByListingType": {
+          "1": 43,
+          "2": 0
+        },
+        "floor": 0,
+        "image": "/card-images/card-82.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Tyranitar"
+        },
+        "count": 8,
+        "countByListingType": {
+          "1": 34,
+          "2": 8
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-83.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Groudon"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 38,
+          "2": 3
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-84.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Flareon EX"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 36,
+          "2": 4
+        },
+        "floor": 672219000,
+        "image": "/card-images/card-85.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Lugia-Holo"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 35,
+          "2": 5
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-86.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Ethan's Typhlosion"
+        },
+        "count": 3,
+        "countByListingType": {
+          "1": 36,
+          "2": 3
+        },
+        "floor": 374658000,
+        "image": "/card-images/card-87.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Poliwhirl"
+        },
+        "count": 1,
+        "countByListingType": {
+          "1": 38,
+          "2": 1
+        },
+        "floor": 799876000,
+        "image": "/card-images/card-88.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Victini"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 33,
+          "2": 6
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-89.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/M Charizard EX"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 34,
+          "2": 4
+        },
+        "floor": 1090983000,
+        "image": "/card-images/card-90.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Gengar EX"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 33,
+          "2": 5
+        },
+        "floor": 728238000,
+        "image": "/card-images/card-91.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Latios"
+        },
+        "count": 5,
+        "countByListingType": {
+          "1": 33,
+          "2": 5
+        },
+        "floor": 397101000,
+        "image": "/card-images/card-92.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Mewtwo-Holo"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 32,
+          "2": 6
+        },
+        "floor": 207858000,
+        "image": "/card-images/card-93.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Leafeon Vstar"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 31,
+          "2": 6
+        },
+        "floor": 68600000,
+        "image": "/card-images/card-94.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Sylveon Vmax"
+        },
+        "count": 1,
+        "countByListingType": {
+          "1": 36,
+          "2": 1
+        },
+        "floor": 500000000,
+        "image": "/card-images/card-95.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Hydreigon EX"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 31,
+          "2": 6
+        },
+        "floor": 142000000,
+        "image": "/card-images/card-96.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Ninetales"
+        },
+        "count": 6,
+        "countByListingType": {
+          "1": 31,
+          "2": 6
+        },
+        "floor": 250000000,
+        "image": "/card-images/card-97.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Salamence EX"
+        },
+        "count": 4,
+        "countByListingType": {
+          "1": 33,
+          "2": 4
+        },
+        "floor": 705830000,
+        "image": "/card-images/card-98.jpg"
+      },
+      {
+        "attribute": {
+          "trait_type": "Card Name",
+          "value": "Full Art/Pikachu Vmax"
+        },
+        "count": 1,
+        "countByListingType": {
+          "1": 35,
+          "2": 1
+        },
+        "floor": 3082722000,
+        "image": "/card-images/card-99.jpg"
+      }
+    ]
+  }
+}

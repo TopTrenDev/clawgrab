@@ -3,7 +3,7 @@ import { Search, SlidersHorizontal, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import cardsData from "@/data/pokemon/cards.json";
+import cardsData from "@/data/pokemon/cards-local.json";
 
 type Rarity = "All" | "Common" | "Rare" | "Epic" | "Legendary";
 type SortOption = "newest" | "price-low" | "price-high" | "rarity";
@@ -36,8 +36,7 @@ const MOCK_SELLERS = ["7xKp...3nRq", "9mBz...1xLp", "4kWn...8vTr", "2jFx...6dNs"
 
 function buildMarketplaceCards(): NFTItem[] {
   const attributes = cardsData.results?.availableAttributes ?? [];
-  const first100 = attributes.slice(0, 100);
-  return first100.map((item, index) => {
+  return attributes.map((item, index) => {
     const name = item.attribute?.value ?? "Unknown";
     const image = item.image ?? "/placeholder.svg";
     const floor = typeof item.floor === "number" ? item.floor : 0;
