@@ -44,9 +44,9 @@ const HeroSection = () => {
                 <Gamepad2 className="h-5 w-5" />
                 Play Now
               </a>
-              <button className="btn-neon-outline flex items-center justify-center gap-2 text-base px-8 py-4">
+              <a href="#how-it-works" className="btn-neon-outline flex items-center justify-center gap-2 text-base px-8 py-4">
                 How It Works
-              </button>
+              </a>
             </div>
 
             {/* Stats */}
