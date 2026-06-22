@@ -1,27 +1,62 @@
-# ClawGrab
+# 🕹️ ClawGrab
 
-A claw-machine style NFT collectibles web app. Drop the claw, grab packs, and reveal rare Pokémon-style NFT collectibles on Solana. Trade, hold, or sell — your luck, your call.
+> **Drop the claw. Grab the pack. Reveal the treasure.** 🎰
 
-## Features
+**ClawGrab** is a claw-machine style NFT collectibles web app on **Solana** ⚡. Connect your wallet, drop the claw on a pack, and reveal rare Pokémon-style NFT cards — then **trade**, **hold**, or **sell** on the marketplace. Your luck, your call. 🍀
 
-- **Home** — Hero, featured packs, how it works, and recent pulls
-- **Packs** — Buy Starter, Gold Rush, and Legendary packs (priced in SOL) with different rarity odds
-- **Marketplace** — Browse, filter, and trade NFTs won from the claw machine (rarity, price, search)
-- **Leaderboard** — Top players ranked by total winnings and NFTs collected
 
-## Tech Stack
+[![Telegram](https://img.shields.io/badge/Telegram-@toptrendev_66-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/TopTrenDev_66)
+[![Twitter](https://img.shields.io/badge/Twitter-@toptrendev-1DA1F2?style=for-the-badge&logo=x)](https://x.com/intent/follow?screen_name=toptrendev)
+
+---
+
+## ✨ Screenshots
+
+### 🏠 Home — Grab Your NFT Treasures
+![ClawGrab home page with hero section and claw machine](public/Screenshots/1.png)
+
+### 📦 Packs — Choose Your Odds
+Starter, Gold Rush, and Legendary packs with different rarity drop rates — all priced in SOL.
+![ClawGrab packs page with Starter, Gold Rush, and Legendary packs](public/Screenshots/2.png)
+
+### 🛒 Marketplace — Buy & Trade NFTs
+Browse graded collectibles, filter by rarity, and buy from other players.
+![ClawGrab marketplace with NFT cards and Buy Now buttons](public/Screenshots/3.png)
+
+### 🏆 Leaderboard — Top Players
+See who's winning the most SOL and collecting the rarest pulls.
+![ClawGrab leaderboard with top players ranked by winnings](public/Screenshots/4.png)
+
+---
+
+## 🎯 Features
+
+- **🏠 Home** — Hero, featured packs, how it works, and live recent pulls
+- **📦 Packs** — Buy Starter, Gold Rush, and Legendary packs (priced in SOL) with tiered rarity odds
+- **🛒 Marketplace** — Browse, filter, search, and trade NFTs won from the claw machine
+- **🏆 Leaderboard** — Top players ranked by total winnings, NFTs collected, and plays
+
+## 🎮 How It Works
+
+1. **🪝 Drop the Claw** — Connect your Solana wallet and choose a pack
+2. **🎁 Reveal Your Pull** — Watch the claw grab your NFT and reveal the card rarity
+3. **💎 Collect or Trade** — Keep your NFT, list it on the marketplace, or trade with others
+4. **🔄 Sell Back** — Don't want it? Sell back at 85% instant buyback value
+
+---
+
+## 🛠️ Tech Stack
 
 - **Runtime** — [Vite](https://vitejs.dev/) 5, [React](https://react.dev/) 18, [TypeScript](https://www.typescriptlang.org/)
-- **UI** — [shadcn/ui](https://ui.shadcn.com/) (Radix), [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/), [Lucide](https://lucide.dev/) icons
-- **Data & routing** — [TanStack Query](https://tanstack.com/query/latest), [React Router](https://reactrouter.com/) v6
-- **Forms & validation** — [React Hook Form](https://react-hook-form.com/), [Zod](https://zod.dev/)
+- **UI** — [Tailwind CSS](https://tailwindcss.com/), [Framer Motion](https://www.framer.com/motion/), [Lucide](https://lucide.dev/) icons
+- **Routing** — [React Router](https://reactrouter.com/) v6
 
-## Prerequisites
+## 📋 Prerequisites
 
 - [Node.js](https://nodejs.org/) (LTS recommended)
 - npm (or pnpm/yarn)
 
-## Getting Started
+## 🚀 Getting Started
 
 ```bash
 # Install dependencies
@@ -33,7 +68,7 @@ npm run dev
 
 Dev server runs at **http://localhost:8080** (or the port shown in the terminal).
 
-## Scripts
+## 📜 Scripts
 
 | Command | Description |
 |--------|-------------|
@@ -45,12 +80,12 @@ Dev server runs at **http://localhost:8080** (or the port shown in the terminal)
 | `npm run test` | Run Vitest once |
 | `npm run test:watch` | Run Vitest in watch mode |
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── main.tsx           # Entry, React root
-├── App.tsx            # Routes, providers (Query, Router, Toaster)
+├── App.tsx            # Routes
 ├── index.css          # Global styles, Tailwind
 ├── pages/             # Route pages
 │   ├── Index.tsx      # Home
@@ -64,12 +99,6 @@ src/
 │   ├── HeroSection.tsx
 │   ├── PacksSection.tsx
 │   ├── HowItWorks.tsx
-│   ├── RecentPulls.tsx
-│   └── ui/            # shadcn/ui primitives
-├── hooks/             # Custom hooks
-└── lib/               # Utilities (e.g. cn)
+│   └── RecentPulls.tsx
+└── data/              # Local card & game data
 ```
-
-## License
-
-Private project.
